@@ -30,10 +30,26 @@ code {
   padding-right: 40px;
 }
 
+.Nav p {
+  margin-top: .2em;
+  margin-bottom: 0px;
+}
+
 .logo {
   margin-top: 1em;
 }
 
+.drawing-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .drawing-container h1 {
   text-align: center;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

@@ -1,17 +1,23 @@
 import React from 'react'
+import { AiOutlineLogin, AiOutlineBulb } from 'react-icons/ai'
+import { MdAssignment } from 'react-icons/md'
 
 const Nav = () => {
     return (
         <nav className="Nav">
                 <div className="logo">
-                    CheetohMan98 Art
+                    < AiOutlineBulb/>
+                    CheetohMan98
+                    < AiOutlineBulb />
                 </div>
                 <ul>
                     <li>
-                        Join
+                        < MdAssignment size="1rem" className="icon"/>
+                        <p>Join</p>
                     </li>
                     <li>
-                        Login
+                    < AiOutlineLogin size="1rem" className="icon" />
+                       <p> Login </p>
                     </li>
                 </ul>
         </nav>
