@@ -42,9 +42,9 @@ code {
 .drawing-container {
   padding-left: 5%;
   padding-right: 5%;
-}
-.drawing-container h1 {
-  text-align: center;
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
 }
 
 .icon {
@@ -52,4 +52,18 @@ code {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.Main h1{
+  text-align: center;
+}
+
+.drawing-card {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.drawing-card p {
+  color: black;
+  text-align: center;
 }

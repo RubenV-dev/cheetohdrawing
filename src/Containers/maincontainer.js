@@ -7,6 +7,7 @@ export default class MainContainer extends React.Component {
         return (
         <div className="Main">
             <Nav />
+            <h1>Artwork Submissions</h1>
             <Drawings />
         </div>
         )
