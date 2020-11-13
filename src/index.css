@@ -40,8 +40,8 @@ code {
 }
 
 .drawing-container {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   /* justify-content: space-evenly; */
   flex-wrap: wrap;
@@ -61,9 +61,28 @@ code {
 .drawing-card {
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
+  border: 1px solid purple;
+  box-shadow: 0 0 1rem 0 purple;
+}
+
+.drawing-card:hover{
+  transform: scale(1.1);
 }
 
 .drawing-card p {
-  color: black;
+  color: white;
   text-align: center;
+  /* background: rgba(0, 0, 0, 0.6); */
 }
+
+/* .drawing-container .img-wrapper {
+  display: inline-block;
+  overflow: hidden; 
+  height: 100%;
+  width: 100%;
+} */
+
+.drawing-card .card-info {
+  background: rgba(0, 0, 0, 0.6);
+}
+
