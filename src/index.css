@@ -40,11 +40,13 @@ code {
 }
 
 .drawing-container {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   display: flex;
   /* justify-content: space-evenly; */
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon {
@@ -59,10 +61,12 @@ code {
 }
 
 .drawing-card {
-  padding: 10px 10px 10px 10px;
+  /* padding: 10px 10px 10px 10px; */
   margin: 10px 10px 10px 10px;
   border: 1px solid purple;
   box-shadow: 0 0 1rem 0 purple;
+  display: inline-block;
+  height: 200px;
 }
 
 .drawing-card:hover{
@@ -72,7 +76,13 @@ code {
 .drawing-card p {
   color: white;
   text-align: center;
-  /* background: rgba(0, 0, 0, 0.6); */
+  /* background: rgba(145, 22, 22, 0.6); */
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.drawing-card p:hover{
+  color: pink;
 }
 
 /* .drawing-container .img-wrapper {
@@ -83,6 +93,19 @@ code {
 } */
 
 .drawing-card .card-info {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 100%;
 }
 
+#likes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#comment {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
